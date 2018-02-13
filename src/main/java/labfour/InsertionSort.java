@@ -40,7 +40,7 @@ public class InsertionSort {
     int length = source.length;
     char[] sorted = new char[source.length];
     int begin = 0;
-    // TODO: Step 1: Call System.arraycopy to create deep clone in "sorted"
+    // TODO: Step 1: Call System.arraycopy to create shallow clone in "sorted"
     // TODO: Step 2: Use insertion sort algorithm to sort the array
     // TODO: Step 3: Once the sorted array is correct, return it instead of source
     return source;
@@ -61,7 +61,7 @@ public class InsertionSort {
     int length = source.length;
     int[] sorted = new int[source.length];
     int begin = 0;
-    // TODO: Step 1: Call System.arraycopy to create deep clone in "sorted"
+    // TODO: Step 1: Call System.arraycopy to create shallow clone in "sorted"
     // TODO: Step 2: Use insertion sort algorithm to sort the array
     // TODO: Step 3: Once the sorted array is correct, return it instead of source
     return source;

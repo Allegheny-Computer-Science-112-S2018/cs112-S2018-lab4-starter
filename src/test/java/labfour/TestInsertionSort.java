@@ -27,7 +27,7 @@ public class TestInsertionSort {
   private static int ALPHABET_SIZE = 26;
 
   /** The starting character. */
-  private static char STARTING_CHARACTER = 'c';
+  private static char STARTING_CHARACTER = 'a';
 
   /** A method to determine if an array is isSorted. */
   private boolean isSorted(int[] array) {

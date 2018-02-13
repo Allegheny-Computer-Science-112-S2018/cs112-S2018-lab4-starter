@@ -178,7 +178,7 @@ if [ "$CHECK" = true ]; then
   python3 gatorgrader/gatorgrader.py --nowelcome --commands "gradle -q --console plain run" --outputlines 4
   determine_exit_code $?
   # --> GatorGrader CHECK: the reflection contains at least 'k' paragraphs
-  python3 gatorgrader/gatorgrader.py --nowelcome --directories writing --checkfiles reflection.md --paragraphs 3 --sentences 3
+  python3 gatorgrader/gatorgrader.py --nowelcome --directories writing --checkfiles reflection.md --paragraphs 5 --sentences 3
   determine_exit_code $?
   # --> GatorGrader CHECK: the repository contains at least five commits
   python3 gatorgrader/gatorgrader.py --nowelcome --commits 5
